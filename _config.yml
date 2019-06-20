@@ -1,14 +1,14 @@
 # Site settings
-title: Emerald | A simple Jekyll blog
-description: "A minimal blog template, build with Jekyll."
-url: "http://www.jacoporabolini.com/emerald"
-author:
-  name: "Jacopo Rabolini"
-  email: "hello@jacoporabolini.com"
-  url: "http://www.jacoporabolini.com"
+title: Bitdefender | EPP Playbook
+description: "Blog to feature small portable MITRE tests for Sales Enablement"
+#url: "http://www.jacoporabolini.com/emerald"
+#author:
+#  name: "Jacopo Rabolini"
+# email: "hello@jacoporabolini.com"
+#  url: "http://www.jacoporabolini.com"
 
 # Build settings
-baseurl: / # Change this to your relative path (ex: /blog/), or leave just a /
+baseurl: /bitdefender-epp-playbook # Change this to your relative path (ex: /blog/), or leave just a /
 markdown: kramdown
 source: .
 destination: ./_site
