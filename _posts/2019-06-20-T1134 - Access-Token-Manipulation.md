@@ -1,6 +1,10 @@
 ---
 published: false
 ---
+---
+title: T1134 - Access-Token-Manipulation
+---
+
 ## [Description from ATT&CK](https://attack.mitre.org/wiki/Technique/T1134)
 
 ```
