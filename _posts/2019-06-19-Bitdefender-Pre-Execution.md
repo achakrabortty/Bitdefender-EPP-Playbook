@@ -2,6 +2,4 @@
 title: Bitdefender Pre Execution
 published: true
 ---
-## Bitdefender Pre Execution
-
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+This blog will include details about detection using GravityZone's Pre-Execution Technology
