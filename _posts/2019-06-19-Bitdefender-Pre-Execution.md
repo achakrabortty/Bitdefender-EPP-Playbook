@@ -1,5 +1,6 @@
 ---
-published: false
+title: Bitdefender Pre Execution
+published: true
 ---
 ## Bitdefender Pre Execution
 
