@@ -28,7 +28,6 @@ Metasploit’s Meterpreter payload allows arbitrary token manipulation and uses 
 
 - Atomic Test #1 - Access Token Manipulation
 
-<br/>
 
 ## Atomic Test #1 - Access Token Manipulation
 Creates a process as another user
@@ -38,8 +37,8 @@ Requires Administrator Privileges To Execute Test
 
 
 #### Inputs
-| Name | Description | Type | Default Value | <br/>
-|------|-------------|------|---------------| <br/>
+| Name | Description | Type | Default Value | 
+|------|-------------|------|---------------|
 | target_user | Username To Steal Token From | String | SYSTEM|
 
 #### Run it with `powershell`!
