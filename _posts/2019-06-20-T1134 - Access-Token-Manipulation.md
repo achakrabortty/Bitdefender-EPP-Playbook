@@ -61,10 +61,6 @@ Requires Administrator Privileges To Execute Test
 </tbody>
 </table>
 
-| Name | Description | Type | Default Value | 
-|------|-------------|------|---------------|
-| target_user | Username To Steal Token From | String | SYSTEM|
-
 #### Run it with `powershell`!
 ```
 #list processes by user,
