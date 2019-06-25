@@ -46,6 +46,14 @@ blockquote {
 	p, ul, ol {
 		padding: 1.5em 0; /* 24px/18px */
 	}
+    > :first-child {
+      margin-top: 0;
+    }
+
+    > :last-child {
+      margin-bottom: 0;
+}
+    
 }
 
 /*- Typography for big screen, based on 18px font-size -*/
@@ -88,6 +96,13 @@ blockquote {
 	p, ul, ol {
 		padding: 1.33334em 0; /* 24px/18px */
 	}
+    > :first-child {
+      margin-top: 0;
+    }
+
+    > :last-child {
+      margin-bottom: 0;
+}
 }
 
 }
