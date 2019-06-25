@@ -38,8 +38,8 @@ Requires Administrator Privileges To Execute Test
 
 
 #### Inputs
-| Name | Description | Type | Default Value | 
-|------|-------------|------|---------------|
+| Name | Description | Type | Default Value | <br/>
+|------|-------------|------|---------------| <br/>
 | target_user | Username To Steal Token From | String | SYSTEM|
 
 #### Run it with `powershell`!
