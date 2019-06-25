@@ -40,8 +40,10 @@ Requires Administrator Privileges To Execute Test
 
 <table>
 <colgroup>
-<col width="30%" />
-<col width="70%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
 </colgroup>
 <thead>
 <tr class="header">
