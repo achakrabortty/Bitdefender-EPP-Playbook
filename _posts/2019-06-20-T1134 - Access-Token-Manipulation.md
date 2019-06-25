@@ -37,12 +37,14 @@ Requires Administrator Privileges To Execute Test
 
 
 #### Inputs
+
 | Name | Description | Type | Default Value | 
-|------|-------------|------|---------------|
-| target_user | Username To Steal Token From | String | SYSTEM|
+|:------:|:------------:|:------:|:---------------:|
+| target_user | Username To Steal Token From | String | SYSTEM |
 
 
 #### Run it with `powershell`!
+
 ```
 #list processes by user,
 
@@ -53,4 +55,3 @@ get-process | select processname,Id,@{l="Owner";e={$owners[$_.id.tostring()]}}
 . .\src\T1134.ps1
 ```
 <br/>
-
