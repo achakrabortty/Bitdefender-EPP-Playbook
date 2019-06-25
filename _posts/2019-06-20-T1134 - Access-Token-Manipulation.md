@@ -37,6 +37,30 @@ Requires Administrator Privileges To Execute Test
 
 
 #### Inputs
+
+<table>
+<colgroup>
+<col width="30%" />
+<col width="70%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Name</th>
+<th>Description</th>
+<th>Type</th>
+<th>Default Value</th>  
+</tr>
+</thead>
+<tbody>
+<tr>
+<td markdown="span">target_user</td>
+<td markdown="span">Username To Steal Token From</td>
+<td markdown="span">String</td>
+<td markdown="span">SYSTEM</td>
+</tr>
+</tbody>
+</table>
+
 | Name | Description | Type | Default Value | 
 |------|-------------|------|---------------|
 | target_user | Username To Steal Token From | String | SYSTEM|
