@@ -37,31 +37,10 @@ Requires Administrator Privileges To Execute Test
 
 
 #### Inputs
+| Name | Description | Type | Default Value | 
+|------|-------------|------|---------------|
+| target_user | Username To Steal Token From | String | SYSTEM|
 
-<table>
-<colgroup>
-<col width="25%" />
-<col width="25%" />
-<col width="25%" />
-<col width="25%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Type</th>
-<th>Default Value</th>  
-</tr>
-</thead>
-<tbody>
-<tr>
-<td markdown="span">target_user</td>
-<td markdown="span">Username To Steal Token From</td>
-<td markdown="span">String</td>
-<td markdown="span">SYSTEM</td>
-</tr>
-</tbody>
-</table>
 
 #### Run it with `powershell`!
 ```
