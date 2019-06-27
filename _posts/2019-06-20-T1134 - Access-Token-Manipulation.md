@@ -36,14 +36,13 @@ Requires Administrator Privileges To Execute Test
 **Supported Platforms:** Windows
 
 
-#### Inputs
+### Inputs
 
 | Name | Description | Type | Default Value | 
 |:------:|:------------:|:------:|:---------------:|
 | target_user | Username To Steal Token From | String | SYSTEM |
 
-<br/>
-#### Run it with `powershell`!
+### Run it with `powershell`!
 
 ```
 #list processes by user,
@@ -54,4 +53,3 @@ get-process | select processname,Id,@{l="Owner";e={$owners[$_.id.tostring()]}}
 #Steal Token
 . .\src\T1134.ps1
 ```
-<br/>
