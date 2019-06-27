@@ -15,10 +15,10 @@ For the debugger method on Windows Vista and later as well as Windows Server 200
 <br/><br/>
 Other accessibility features exist that may also be leveraged in a similar fashion: (Citation: DEFCON2016 Sticky Keys)
 <br/><br/>
-- On-Screen Keyboard: <code>C:\Windows\System32\osk.exe</code>
-- Magnifier: <code>C:\Windows\System32\Magnify.exe</code>
-- Narrator: <code>C:\Windows\System32\Narrator.exe</code>
-- Display Switcher: <code>C:\Windows\System32\DisplaySwitch.exe</code>
+- On-Screen Keyboard: <code>C:\Windows\System32\osk.exe</code><br/>
+- Magnifier: <code>C:\Windows\System32\Magnify.exe</code><br/>
+- Narrator: <code>C:\Windows\System32\Narrator.exe</code><br/>
+- Display Switcher: <code>C:\Windows\System32\DisplaySwitch.exe</code><br/>
 - App Switcher: <code>C:\Windows\System32\AtBroker.exe</code></blockquote>
 
 ## Atomic Tests
