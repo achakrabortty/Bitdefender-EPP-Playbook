@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## [Description from ATT&CK](https://attack.mitre.org/wiki/Technique/T1015)
 <blockquote>Windows contains accessibility features that may be launched with a key combination before a user has logged in (for example, when the user is on the Windows logon screen). An adversary can modify the way these programs are launched to get a command prompt or backdoor without logging in to the system.
@@ -19,3 +19,19 @@ Other accessibility features exist that may also be leveraged in a similar fashi
 * Narrator: <code>C:\Windows\System32\Narrator.exe</code>
 * Display Switcher: <code>C:\Windows\System32\DisplaySwitch.exe</code>
 * App Switcher: <code>C:\Windows\System32\AtBroker.exe</code></blockquote>
+
+## Atomic Tests
+
+- Atomic Test #1 - Attaches Command Prompt As Debugger To Process - osk
+
+- Atomic Test #2 - Attaches Command Prompt As Debugger To Process - sethc
+
+- Atomic Test #3 - Attaches Command Prompt As Debugger To Process - utilman
+
+- Atomic Test #4 - Attaches Command Prompt As Debugger To Process - magnify
+
+- Atomic Test #5 - Attaches Command Prompt As Debugger To Process - narrator
+
+- Atomic Test #6 - Attaches Command Prompt As Debugger To Process - DisplaySwitch
+
+- Atomic Test #7 - Attaches Command Prompt As Debugger To Process - AtBroker
