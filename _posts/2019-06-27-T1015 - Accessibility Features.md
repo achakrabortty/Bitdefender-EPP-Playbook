@@ -1,4 +1,5 @@
 ---
+title: T1015 - Accessibility Features
 published: true
 ---
 ## [Description from ATT&CK](https://attack.mitre.org/wiki/Technique/T1015)
