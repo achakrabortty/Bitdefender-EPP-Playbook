@@ -23,3 +23,17 @@
   - Atomic Test #5: Attaches Command Prompt As Debugger To Process - narrator [windows]
   - Atomic Test #6: Attaches Command Prompt As Debugger To Process - DisplaySwitch [windows]
   - Atomic Test #7: Attaches Command Prompt As Debugger To Process - AtBroker [windows]
+  
+### persistence
+
+- [T1015 Accessibility Features](_posts/2019-06-27-T1015 - Accessibility Features.md)
+  - Atomic Test #1: Attaches Command Prompt As Debugger To Process - osk [windows]
+  - Atomic Test #2: Attaches Command Prompt As Debugger To Process - sethc [windows]
+  - Atomic Test #3: Attaches Command Prompt As Debugger To Process - utilman [windows]
+  - Atomic Test #4: Attaches Command Prompt As Debugger To Process - magnify [windows]
+  - Atomic Test #5: Attaches Command Prompt As Debugger To Process - narrator [windows]
+  - Atomic Test #6: Attaches Command Prompt As Debugger To Process - DisplaySwitch [windows]
+  - Atomic Test #7: Attaches Command Prompt As Debugger To Process - AtBroker [windows]
+  
+- T1098 Account Manipulation
+  - Atomic Test #1: Admin Account Manipulate [windows]
