@@ -34,5 +34,5 @@
   - Atomic Test #5: Attaches Command Prompt As Debugger To Process - narrator [windows]
   - Atomic Test #6: Attaches Command Prompt As Debugger To Process - DisplaySwitch [windows]
   - Atomic Test #7: Attaches Command Prompt As Debugger To Process - AtBroker [windows]  
-- T1098 Account Manipulation
+- [T1098 Account Manipulation](_posts/2019-06-27-T1098 - Account Manipulation.md)
   - Atomic Test #1: Admin Account Manipulate [windows]
