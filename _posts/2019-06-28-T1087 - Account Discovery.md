@@ -5,9 +5,9 @@ title: T1087 - Account Discovery
 
 ## [Description from ATT&CK](https://attack.mitre.org/wiki/Technique/T1087)
 <blockquote>Adversaries may attempt to get a listing of local system or domain accounts. 
-
+<br/><br/>
 <b>Windows</b>
-Example commands that can acquire this information are <code>net user</code>, <code>net group <groupname></code>, and <code>net localgroup <groupname></code> using the <a href="https://attack.mitre.org/software/S0039">Net</a> utility or through use of <a href="https://attack.mitre.org/software/S0105">dsquery</a>. If adversaries attempt to identify the primary user, currently logged in user, or set of users that commonly uses a system, <a href="https://attack.mitre.org/techniques/T1033">System Owner/User Discovery</a> may apply.
+Example commands that can acquire this information are <code>net user</code>, <code>net group groupname</code>, and <code>net localgroup groupname</code> using the <a href="https://attack.mitre.org/software/S0039">Net</a> utility or through use of <a href="https://attack.mitre.org/software/S0105">dsquery</a>. If adversaries attempt to identify the primary user, currently logged in user, or set of users that commonly uses a system, <a href="https://attack.mitre.org/techniques/T1033">System Owner/User Discovery</a> may apply.
 <br /><br />
 
 <b>Mac</b>
