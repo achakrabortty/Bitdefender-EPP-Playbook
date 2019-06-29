@@ -1,7 +1,5 @@
 ---
-published: false
----
----
+published: true
 title: T1087 - Account Discovery
 ---
 
