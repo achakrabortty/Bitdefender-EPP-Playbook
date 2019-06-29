@@ -36,3 +36,11 @@
   - Atomic Test #7: Attaches Command Prompt As Debugger To Process - AtBroker [windows]  
 - [T1098 Account Manipulation](_posts/2019-06-27-T1098 - Account Manipulation.md)
   - Atomic Test #1: Admin Account Manipulate [windows]
+
+
+### discovery
+- T1087 Account Discovery
+  - Atomic Test #8: Enumerate all accounts [windows]
+  - Atomic Test #9: Enumerate all accounts via PowerShell [windows]
+  - Atomic Test #10: Enumerate logged on users [windows]
+  - Atomic Test #11: Enumerate logged on users via PowerShell [windows]
