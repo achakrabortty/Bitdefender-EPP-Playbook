@@ -39,8 +39,11 @@
 
 
 ### discovery
+
 - [T1087 Account Discovery](_posts/2019-06-28-T1087 - Account Discovery.md)
   - Atomic Test #8: Enumerate all accounts [windows]
   - Atomic Test #9: Enumerate all accounts via PowerShell [windows]
   - Atomic Test #10: Enumerate logged on users [windows]
   - Atomic Test #11: Enumerate logged on users via PowerShell [windows]
+- T1010 Application Window Discovery
+  - Atomic Test #1: List Process Main Windows - C# .NET [windows]
