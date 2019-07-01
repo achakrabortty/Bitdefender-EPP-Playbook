@@ -19,3 +19,213 @@ On Linux, local users can be enumerated through the use of the <code>/etc/passwd
 <br /><br />
 
 Also, groups can be enumerated through the <code>groups</code> and <code>id</code> commands</blockquote>
+
+## Atomic Tests
+
+- Atomic Test #1 - Enumerate all accounts
+
+- Atomic Test #2 - View sudoers access
+
+- Atomic Test #3 - View accounts with UID 0
+
+- Atomic Test #4 - List opened files by user
+
+- Atomic Test #5 - Show if a user account has ever logger in remotely
+
+- Atomic Test #6 - Enumerate users and groups
+
+- Atomic Test #7 - Enumerate users and groups
+
+- Atomic Test #8 - Enumerate all accounts
+
+- Atomic Test #9 - Enumerate all accounts via PowerShell
+
+- Atomic Test #10 - Enumerate logged on users
+
+- Atomic Test #11 - Enumerate logged on users via PowerShell
+
+<br/><br/>
+
+## Atomic Test #1 - Enumerate all accounts
+Enumerate all accounts by copying /etc/passwd to another file
+
+**Supported Platforms:** Linux, macOS
+
+#### Inputs
+
+| Name | Description | Type | Default Value | 
+|:------:|:-------------:|:------:|:---------------:|
+| output_file | Path where captured results will be placed | Path | ~/loot.txt|
+
+#### Run it with `sh`!
+
+```
+cat /etc/passwd > #{output_file}
+```
+<br/>
+<br/>
+
+## Atomic Test #2 - View sudoers access
+xxx (requires root)
+
+**Supported Platforms:** Linux, macOS
+
+#### Inputs
+
+| Name | Description | Type | Default Value | 
+|:------:|:-------------:|:------:|:---------------:|
+| output_file | Path where captured results will be placed | Path | ~/loot.txt|
+
+#### Run it with `sh`!
+
+```
+cat /etc/sudoers > #{output_file}
+```
+<br/>
+<br/>
+
+## Atomic Test #3 - View accounts with UID 0
+View accounts wtih UID 0
+
+**Supported Platforms:** Linux, macOS
+
+
+#### Inputs
+| Name | Description | Type | Default Value | 
+|------|-------------|------|---------------|
+| output_file | Path where captured results will be placed | Path | ~/loot.txt|
+
+#### Run it with `sh`!
+```
+grep 'x:0:' /etc/passwd > #{output_file} - name: List opened files by user
+```
+<br/>
+<br/>
+
+## Atomic Test #4 - List opened files by user
+List opened files by user
+
+**Supported Platforms:** Linux, macOS
+
+
+#### Run it with `sh`!
+```
+username=$(echo $HOME | awk -F'/' '{print $3}') && lsof -u $username
+```
+<br/>
+<br/>
+
+## Atomic Test #5 - Show if a user account has ever logger in remotely
+Show if a user account has ever logger in remotely
+
+**Supported Platforms:** Linux, macOS
+
+
+#### Inputs
+| Name | Description | Type | Default Value | 
+|------|-------------|------|---------------|
+| output_file | Path where captured results will be placed | Path | ~/loot.txt|
+
+#### Run it with `sh`!
+```
+lastlog > #{output_file}
+```
+<br/>
+<br/>
+
+## Atomic Test #6 - Enumerate users and groups
+Utilize groups and id to enumerate users and groups
+
+**Supported Platforms:** Linux, macOS
+
+
+#### Run it with `sh`!
+```
+groups
+id
+```
+<br/>
+<br/>
+
+## Atomic Test #7 - Enumerate users and groups
+Utilize local utilities to enumerate users and groups
+
+**Supported Platforms:** macOS
+
+
+#### Run it with `sh`!
+```
+dscl . list /Groups
+dscl . list /Users
+dscl . list /Users | grep -v '_'
+dscacheutil -q group
+dscacheutil -q user
+```
+<br/>
+<br/>
+
+## Atomic Test #8 - Enumerate all accounts
+Enumerate all accounts
+
+**Supported Platforms:** Windows
+
+
+#### Run it with `command_prompt`!
+```
+net user
+net user /domain
+dir c:\Users\
+cmdkey.exe /list
+net localgroup "Users"
+net localgroup
+```
+<br/>
+<br/>
+
+## Atomic Test #9 - Enumerate all accounts via PowerShell
+Enumerate all accounts via PowerShell
+
+**Supported Platforms:** Windows
+
+
+#### Run it with `powershell`!
+```
+net user
+net user /domain
+get-localuser
+get-localgroupmembers -group Users
+cmdkey.exe /list
+ls C:/Users
+get-childitem C:\Users\
+dir C:\Users\
+get-aduser -filter *
+get-localgroup
+net localgroup
+```
+<br/>
+<br/>
+
+## Atomic Test #10 - Enumerate logged on users
+Enumerate logged on users
+
+**Supported Platforms:** Windows
+
+
+#### Run it with `command_prompt`!
+```
+query user
+```
+<br/>
+<br/>
+
+## Atomic Test #11 - Enumerate logged on users via PowerShell
+Enumerate logged on users via PowerShell
+
+**Supported Platforms:** Windows
+
+
+#### Run it with `powershell`!
+```
+query user
+```
+<br/>
