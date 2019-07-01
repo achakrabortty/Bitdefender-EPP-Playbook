@@ -1,5 +1,6 @@
 ---
-published: false
+title: T1010 - Application Window Discovery
+published: true
 ---
 ## [Description from ATT&CK](https://attack.mitre.org/wiki/Technique/T1010)
 <blockquote>Adversaries may attempt to get a listing of open application windows. Window listings could convey information about how the system is used or give context to information collected by a keylogger.
