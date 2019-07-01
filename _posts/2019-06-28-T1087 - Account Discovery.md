@@ -89,13 +89,14 @@ View accounts wtih UID 0
 
 **Supported Platforms:** Linux, macOS
 
-
 #### Inputs
+
 | Name | Description | Type | Default Value | 
-|------|-------------|------|---------------|
+|:------:|:-------------:|:------:|:---------------:|
 | output_file | Path where captured results will be placed | Path | ~/loot.txt|
 
 #### Run it with `sh`!
+
 ```
 grep 'x:0:' /etc/passwd > #{output_file} - name: List opened files by user
 ```
@@ -107,8 +108,8 @@ List opened files by user
 
 **Supported Platforms:** Linux, macOS
 
-
 #### Run it with `sh`!
+
 ```
 username=$(echo $HOME | awk -F'/' '{print $3}') && lsof -u $username
 ```
@@ -120,13 +121,14 @@ Show if a user account has ever logger in remotely
 
 **Supported Platforms:** Linux, macOS
 
-
 #### Inputs
+
 | Name | Description | Type | Default Value | 
-|------|-------------|------|---------------|
+|:------:|:-------------:|:------:|:---------------:|
 | output_file | Path where captured results will be placed | Path | ~/loot.txt|
 
 #### Run it with `sh`!
+
 ```
 lastlog > #{output_file}
 ```
@@ -138,8 +140,8 @@ Utilize groups and id to enumerate users and groups
 
 **Supported Platforms:** Linux, macOS
 
-
 #### Run it with `sh`!
+
 ```
 groups
 id
@@ -152,8 +154,8 @@ Utilize local utilities to enumerate users and groups
 
 **Supported Platforms:** macOS
 
-
 #### Run it with `sh`!
+
 ```
 dscl . list /Groups
 dscl . list /Users
@@ -169,8 +171,8 @@ Enumerate all accounts
 
 **Supported Platforms:** Windows
 
-
 #### Run it with `command_prompt`!
+
 ```
 net user
 net user /domain
@@ -187,8 +189,8 @@ Enumerate all accounts via PowerShell
 
 **Supported Platforms:** Windows
 
-
 #### Run it with `powershell`!
+
 ```
 net user
 net user /domain
@@ -210,8 +212,8 @@ Enumerate logged on users
 
 **Supported Platforms:** Windows
 
-
 #### Run it with `command_prompt`!
+
 ```
 query user
 ```
@@ -223,8 +225,8 @@ Enumerate logged on users via PowerShell
 
 **Supported Platforms:** Windows
 
-
 #### Run it with `powershell`!
+
 ```
 query user
 ```
