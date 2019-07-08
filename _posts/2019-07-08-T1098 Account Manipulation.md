@@ -8,9 +8,7 @@ published: true
 
 ## Atomic Tests
 
-- Atomic Test #1 - Admin Account Manipulate [#atomic-test-1---admin-account-manipulate]
-
-<br/>
+- [Atomic Test #1 - Admin Account Manipulate](#atomic-test-1---admin-account-manipulate)
 
 ## Atomic Test #1 - Admin Account Manipulate
 Manipulate Admin Account Name
