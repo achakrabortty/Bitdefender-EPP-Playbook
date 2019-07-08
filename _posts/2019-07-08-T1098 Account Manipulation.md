@@ -1,5 +1,6 @@
 ---
-published: false
+title: T1098 Account Manipulation
+published: true
 ---
 ## [Description from ATT&CK](https://attack.mitre.org/wiki/Technique/T1098)
 
