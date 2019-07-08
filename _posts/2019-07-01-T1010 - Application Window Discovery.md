@@ -22,7 +22,7 @@ Compiles and executes C# code to list main window titles associated with each pr
 
 | Name | Description | Type | Default Value | 
 |:------:|:-------------:|:------:|:---------------:|
-| input_source_code | Path to source of C# code | path | [File](_posts/codes/T1010/T1010.cs) |
+| input_source_code | Path to source of C# code | path | <a href="https://github.com/achakrabortty/Bitdefender-EPP-Playbook/blob/gh-pages/_posts/codes/T1010/T1010.cs">File</a> |
 | output_file_name | Name of output binary | string | T1010.exe|
 
 #### Run it with `command_prompt`!
