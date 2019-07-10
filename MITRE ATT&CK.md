@@ -82,3 +82,13 @@
   - Atomic Test #1: Install and Register Password Filter DLL [windows]
 - T1145 Private Keys
   - Atomic Test #1: Private Keys [windows]
+  
+### lateral-movement
+
+- T1037 Logon Scripts
+  - Atomic Test #1: Logon Scripts [windows]
+- T1075 Pass the Hash
+  - Atomic Test #1: Mimikatz Pass the Hash [windows]
+  - Atomic Test #2: Mimikatz Kerberos Ticket Attack [windows]
+  
+  
