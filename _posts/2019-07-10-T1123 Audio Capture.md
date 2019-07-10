@@ -9,9 +9,9 @@ Malware or scripts may be used to interact with the devices through an available
 
 ## Atomic Tests
 
-- Atomic Test #1 - SourceRecorder via Windows command prompt
+- [Atomic Test #1 - SourceRecorder via Windows command prompt](#atomic-test-1---sourcerecorder-via-windows-command-prompt)
 
-- Atomic Test #2 - PowerShell Cmdlet via Windows command prompt
+- [Atomic Test #2 - PowerShell Cmdlet via Windows command prompt](#atomic-test-2---powershell-cmdlet-via-windows-command-prompt)
 
 <br/>
 
