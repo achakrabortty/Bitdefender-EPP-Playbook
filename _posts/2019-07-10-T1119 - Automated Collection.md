@@ -9,9 +9,9 @@ This technique may incorporate use of other techniques such as <a href="https://
 
 ## Atomic Tests
 
-- Atomic Test #1 - Automated Collection Command Prompt
+- [Atomic Test #1 - Automated Collection Command Prompt](#atomic-test-1---automated-collection-command-prompt)
 
-- Atomic Test #2 - Automated Collection PowerShell
+- [Atomic Test #2 - Automated Collection PowerShell](#atomic-test-2---automated-collection-powershell)
 
 <br/>
 
