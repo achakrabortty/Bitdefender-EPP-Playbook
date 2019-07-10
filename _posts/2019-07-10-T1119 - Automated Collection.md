@@ -1,4 +1,5 @@
 ---
+title: T1119 - Automated Collection
 published: true
 ---
 ## [Description from ATT&CK](https://attack.mitre.org/wiki/Technique/T1119)
