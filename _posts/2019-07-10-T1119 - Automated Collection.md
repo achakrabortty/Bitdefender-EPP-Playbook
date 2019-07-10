@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## [Description from ATT&CK](https://attack.mitre.org/wiki/Technique/T1119)
 <blockquote>Once established within a system or network, an adversary may use automated techniques for collecting internal data. Methods for performing this technique could include use of <a href="https://attack.mitre.org/techniques/T1064">Scripting</a> to search for and copy information fitting set criteria such as file type, location, or name at specific time intervals. This functionality could also be built into remote access tools. <br/>
