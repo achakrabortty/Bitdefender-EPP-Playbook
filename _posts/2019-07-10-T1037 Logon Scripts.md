@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## [Description from ATT&CK](https://attack.mitre.org/wiki/Technique/T1037)
 <blockquote>
@@ -63,4 +63,3 @@ Mac logon script
 4. Populate the plist with the location of your shell script
 
 	  <code>defaults write com.apple.loginwindow LoginHook /Library/Scripts/AtomicRedTeam.sh</code>
-
