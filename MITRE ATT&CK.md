@@ -49,7 +49,7 @@
 
 ### credential-access
 
-- T1098 Account Manipulation
+- [T1098 Account Manipulation](_posts/2019-06-27-T1098 - Account Manipulation.md)
   - Atomic Test #1: Admin Account Manipulate [windows]
 - T1110 Brute Force
   - Atomic Test #1: Brute Force Credentials [windows]
