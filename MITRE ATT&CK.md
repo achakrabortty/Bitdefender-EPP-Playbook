@@ -85,9 +85,9 @@
   
 ### lateral-movement
 
-- T1037 Logon Scripts
+- [T1037 Logon Scripts](_posts/2019-07-10-T1037 Logon Scripts.md)
   - Atomic Test #1: Logon Scripts [windows]
-- T1075 Pass the Hash
+- [T1075 Pass the Hash](_posts/2019-07-10-T1075 - Pass the Hash.md)
   - Atomic Test #1: Mimikatz Pass the Hash [windows]
   - Atomic Test #2: Mimikatz Kerberos Ticket Attack [windows]
   
@@ -96,6 +96,6 @@
 - [T1123 Audio Capture](_posts/2019-07-10-T1123 Audio Capture.md) 
   - Atomic Test #1: SourceRecorder via Windows command prompt [windows]
   - Atomic Test #2: PowerShell Cmdlet via Windows command prompt [windows]
-- T1119 Automated Collection
+- [T1119 Automated Collection](
   - Atomic Test #1: Automated Collection Command Prompt [windows]
   - Atomic Test #2: Automated Collection PowerShell [windows]
