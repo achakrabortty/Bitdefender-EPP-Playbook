@@ -1,4 +1,5 @@
 ---
+title: T1123 Audio Capture
 published: true
 ---
 ## [Description from ATT&CK](https://attack.mitre.org/wiki/Technique/T1123)
