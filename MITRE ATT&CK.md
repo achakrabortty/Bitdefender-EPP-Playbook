@@ -96,6 +96,6 @@
 - [T1123 Audio Capture](_posts/2019-07-10-T1123 Audio Capture.md) 
   - Atomic Test #1: SourceRecorder via Windows command prompt [windows]
   - Atomic Test #2: PowerShell Cmdlet via Windows command prompt [windows]
-- [T1119 Automated Collection](
+- [T1119 Automated Collection](_posts/2019-07-10-T1119 - Automated Collection.md)
   - Atomic Test #1: Automated Collection Command Prompt [windows]
   - Atomic Test #2: Automated Collection PowerShell [windows]
