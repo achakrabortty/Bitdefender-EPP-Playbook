@@ -91,4 +91,11 @@
   - Atomic Test #1: Mimikatz Pass the Hash [windows]
   - Atomic Test #2: Mimikatz Kerberos Ticket Attack [windows]
   
-  
+### collection
+
+- T1123 Audio Capture
+  - Atomic Test #1: SourceRecorder via Windows command prompt [windows]
+  - Atomic Test #2: PowerShell Cmdlet via Windows command prompt [windows]
+- T1119 Automated Collection
+  - Atomic Test #1: Automated Collection Command Prompt [windows]
+  - Atomic Test #2: Automated Collection PowerShell [windows]
