@@ -93,7 +93,7 @@
   
 ### collection
 
-- T1123 Audio Capture
+- [T1123 Audio Capture](_posts/2019-07-10-T1123 Audio Capture.md) 
   - Atomic Test #1: SourceRecorder via Windows command prompt [windows]
   - Atomic Test #2: PowerShell Cmdlet via Windows command prompt [windows]
 - T1119 Automated Collection
