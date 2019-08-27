@@ -33,3 +33,24 @@ dir #{input_file} -Recurse | Compress-Archive -DestinationPath #{output_file}
 ```
 <br/>
 <br/>
+
+## Atomic Test #2 - Compress Data for Exfiltration With Rar
+An adversary may compress data (e.g., sensitive documents) that is collected prior to exfiltration 
+
+**Supported Platforms:** Windows
+
+
+#### Inputs
+
+| Name | Description | Type | Default Value | 
+|:------:|:-------------:|:------:|:---------------:|
+| input_file | Path that should be compressed into our output file | Path | *.docx|
+| output_file | Path where resulting compressed data should be placed | Path | exfilthis.rar|
+
+#### Run it with `command_prompt`!
+
+```
+rar a -r #{output_file} #{input_file}
+```
+<br/>
+<br/>
