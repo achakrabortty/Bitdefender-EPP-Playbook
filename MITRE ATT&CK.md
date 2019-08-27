@@ -99,3 +99,9 @@
 - [T1119 Automated Collection](_posts/2019-07-10-T1119 - Automated Collection.md)
   - Atomic Test #1: Automated Collection Command Prompt [windows]
   - Atomic Test #2: Automated Collection PowerShell [windows]
+  
+ ### exfiltration
+ 
+- [T1002 Data Compressed]()
+  - Atomic Test #1: Compress Data for Exfiltration With PowerShell [windows]
+  - Atomic Test #2: Compress Data for Exfiltration With Rar [windows]
