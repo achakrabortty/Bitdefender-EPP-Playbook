@@ -102,6 +102,6 @@
   
 ### exfiltration
 
-- [T1002 Data Compressed] (_posts/2019-08-27-T1002 - Data Compressed.md)
+- [T1002 Data Compressed](_posts/2019-08-27-T1002 - Data Compressed.md)
   - Atomic Test #1: Compress Data for Exfiltration With PowerShell [windows]
   - Atomic Test #2: Compress Data for Exfiltration With Rar [windows]
