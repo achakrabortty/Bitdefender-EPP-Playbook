@@ -113,6 +113,6 @@
   
 ### execution
 
-- T1191 CMSTP
+- [T1191 CMSTP](_posts/2019-08-28-T1191 - CMSTP.md)
   - Atomic Test #1: CMSTP Executing Remote Scriptlet [windows]
   - Atomic Test #2: CMSTP Executing UAC Bypass [windows]
