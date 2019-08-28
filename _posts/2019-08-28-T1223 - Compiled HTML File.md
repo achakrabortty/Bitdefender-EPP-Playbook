@@ -9,9 +9,9 @@ Adversaries may abuse this technology to conceal malicious code. A custom CHM fi
 
 ## Atomic Tests
 
-- Atomic Test #1 - Compiled HTML Help Local Payload
+- [Atomic Test #1 - Compiled HTML Help Local Payload](#atomic-test-1---compiled-html-help-local-payload)
 
-- Atomic Test #2 - Compiled HTML Help Remote Payload
+- [Atomic Test #2 - Compiled HTML Help Remote Payload](#atomic-test-2---compiled-html-help-remote-payload)
 
 
 <br/>
