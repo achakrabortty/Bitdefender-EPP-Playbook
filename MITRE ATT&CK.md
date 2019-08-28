@@ -110,5 +110,9 @@
   - Atomic Test #1: Compress Data and lock with password for Exfiltration with winrar [windows]
   - Atomic Test #2: Compress Data and lock with password for Exfiltration with winzip [windows]
   - Atomic Test #3: Compress Data and lock with password for Exfiltration with 7zip [windows]
+  
+### execution
 
-
+- T1191 CMSTP
+  - Atomic Test #1: CMSTP Executing Remote Scriptlet [windows]
+  - Atomic Test #2: CMSTP Executing UAC Bypass [windows]
