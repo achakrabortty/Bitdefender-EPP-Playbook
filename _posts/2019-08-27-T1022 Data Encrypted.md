@@ -1,5 +1,6 @@
 ---
 published: true
+title: T1022 Data Encrypted
 ---
 ## [Description from ATT&CK](https://attack.mitre.org/wiki/Technique/T1022)
 <blockquote>Data is encrypted before being exfiltrated in order to hide the information that is being exfiltrated from detection or to make the exfiltration less conspicuous upon inspection by a defender. The encryption is performed by a utility, programming library, or custom algorithm on the data itself and is considered separate from any encryption performed by the command and control or file transfer protocol. Common file archive formats that can encrypt files are RAR and zip.
