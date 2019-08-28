@@ -123,8 +123,8 @@
   
 ### command-and-control
 
-- T1071 Standard Application Layer Protocol
+- [T1071 Standard Application Layer Protocol](_posts/2019-08-28-T1071 - Standard Application Layer Protocol.md)
   - Atomic Test #1: Malicious User Agents [windows]
-  - Atomic Test #3: DNS Large Query Volume [windows]
-  - Atomic Test #4: DNS Regular Beaconing [windows]
-  - Atomic Test #5: DNS Long Domain Query [windows]
+  - Atomic Test #2: DNS Large Query Volume [windows]
+  - Atomic Test #3: DNS Regular Beaconing [windows]
+  - Atomic Test #4: DNS Long Domain Query [windows]
