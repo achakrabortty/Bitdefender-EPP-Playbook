@@ -106,7 +106,7 @@
   - Atomic Test #1: Compress Data for Exfiltration With PowerShell [windows]
   - Atomic Test #2: Compress Data for Exfiltration With Rar [windows]
   
-- T1022 Data Encrypted
+- [T1022 Data Encrypted](_posts/2019-08-27-T1022 Data Encrypted.md)
   - Atomic Test #1: Compress Data and lock with password for Exfiltration with winrar [windows]
   - Atomic Test #2: Compress Data and lock with password for Exfiltration with winzip [windows]
   - Atomic Test #3: Compress Data and lock with password for Exfiltration with 7zip [windows]
