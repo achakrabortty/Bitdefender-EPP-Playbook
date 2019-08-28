@@ -9,11 +9,11 @@ Other exfiltration techniques likely apply as well to transfer the information o
 
 ## Atomic Tests
 
-- [Atomic Test #1 - Compress Data and lock with password for Exfiltration with winrar]
+- [Atomic Test #1 - Compress Data and lock with password for Exfiltration with winrar](#atomic-test-1---compress-data-and-lock-with-password-for-exfiltration-with-winrar)
 
-- [Atomic Test #2 - Compress Data and lock with password for Exfiltration with winzip]
+- [Atomic Test #2 - Compress Data and lock with password for Exfiltration with winzip](#atomic-test-2---compress-data-and-lock-with-password-for-exfiltration-with-winzip)
 
-- [Atomic Test #3 - Compress Data and lock with password for Exfiltration with 7zip]
+- [Atomic Test #3 - Compress Data and lock with password for Exfiltration with 7zip](#atomic-test-3---compress-data-and-lock-with-password-for-exfiltration-with-7zip)
 
 
 <br/>
