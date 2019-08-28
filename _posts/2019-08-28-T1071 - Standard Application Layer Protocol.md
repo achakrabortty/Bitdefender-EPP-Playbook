@@ -9,15 +9,13 @@ For connections that occur internally within an enclave (such as those between a
 
 ## Atomic Tests
 
-- Atomic Test #1 - Malicious User Agents
+- [Atomic Test #1 - Malicious User Agents](#atomic-test-1---malicious-user-agents)
 
-- Atomic Test #2 - Malicious User Agents - Nix
+- [Atomic Test #2 - DNS Large Query Volume](#atomic-test-2---dns-large-query-volume)
 
-- Atomic Test #3 - DNS Large Query Volume
+- [Atomic Test #3 - DNS Regular Beaconing](#atomic-test-3---dns-regular-beaconing)
 
-- Atomic Test #4 - DNS Regular Beaconing
-
-- Atomic Test #5 - DNS Long Domain Query
+- [Atomic Test #4 - DNS Long Domain Query](#atomic-test-4---dns-long-domain-query)
 
 
 <br/>
