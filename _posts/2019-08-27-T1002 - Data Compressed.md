@@ -7,9 +7,9 @@ title: T1002 - Data Compressed
 
 ## Atomic Tests
 
-- [Atomic Test #1 - Compress Data for Exfiltration With PowerShell]
+- [Atomic Test #1 - Compress Data for Exfiltration With PowerShell](#atomic-test-1---compress-data-for-exfiltration-with-powershell)
 
-- [Atomic Test #2 - Compress Data for Exfiltration With Rar]
+- [Atomic Test #2 - Compress Data for Exfiltration With Rar](#atomic-test-2---compress-data-for-exfiltration-with-rar)
 
 <br/>
 
