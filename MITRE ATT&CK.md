@@ -120,3 +120,11 @@
 - [T1223 Compiled HTML File](_posts/2019-08-28-T1223 - Compiled HTML File.md)
   - Atomic Test #1: Compiled HTML Help Local Payload [windows]
   - Atomic Test #2: Compiled HTML Help Remote Payload [windows]
+  
+### command-and-control
+
+- T1071 Standard Application Layer Protocol
+  - Atomic Test #1: Malicious User Agents [windows]
+  - Atomic Test #3: DNS Large Query Volume [windows]
+  - Atomic Test #4: DNS Regular Beaconing [windows]
+  - Atomic Test #5: DNS Long Domain Query [windows]
