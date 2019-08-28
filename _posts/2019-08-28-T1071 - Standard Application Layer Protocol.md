@@ -1,5 +1,6 @@
 ---
 published: true
+title: T1071 - Standard Application Layer Protocol
 ---
 ## [Description from ATT&CK](https://attack.mitre.org/wiki/Technique/T1071)
 <blockquote>Adversaries may communicate using a common, standardized application layer protocol such as HTTP, HTTPS, SMTP, or DNS to avoid detection by blending in with existing traffic. Commands to the remote system, and often the results of those commands, will be embedded within the protocol traffic between the client and server.
