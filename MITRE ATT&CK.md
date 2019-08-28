@@ -117,4 +117,6 @@
   - Atomic Test #1: CMSTP Executing Remote Scriptlet [windows]
   - Atomic Test #2: CMSTP Executing UAC Bypass [windows]
 
-- T1059 Command-Line Interface
+- T1223 Compiled HTML File
+  - Atomic Test #1: Compiled HTML Help Local Payload [windows]
+  - Atomic Test #2: Compiled HTML Help Remote Payload [windows]
