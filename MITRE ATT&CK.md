@@ -128,3 +128,11 @@
   - Atomic Test #2: DNS Large Query Volume [windows]
   - Atomic Test #3: DNS Regular Beaconing [windows]
   - Atomic Test #4: DNS Long Domain Query [windows]
+  
+ ### impact
+ 
+ - T1485 Data Destruction
+   - Atomic Test #1: Windows - Delete Volume Shadow Copies [windows]
+   - Atomic Test #2: Windows - Delete Windows Backup Catalog [windows]
+   - Atomic Test #3: Windows - Disable Windows Recovery Console Repair [windows]
+   - Atomic Test #4: Windows - Overwrite file with Sysinternals SDelete [windows]
