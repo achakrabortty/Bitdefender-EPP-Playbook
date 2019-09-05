@@ -9,3 +9,84 @@ Adversaries may attempt to overwrite files and directories with randomly generat
 <br/>
 <br/>
 To maximize impact on the target organization in operations where network-wide availability interruption is the goal, malware designed for destroying data may have worm-like features to propagate across a network by leveraging additional techniques like <a href="https://attack.mitre.org/techniques/T1078">Valid Accounts</a>, <a href="https://attack.mitre.org/techniques/T1003">Credential Dumping</a>, and <a href="https://attack.mitre.org/techniques/T1077"> Windows Admin Shares </a>.(Citation: Symantec Shamoon 2012)(Citation: FireEye Shamoon Nov 2016)(Citation: Palo Alto Shamoon Nov 2016)(Citation: Kaspersky StoneDrill 2017)(Citation: Talos Olympic Destroyer 2018)</blockquote>
+
+## Atomic Tests
+
+- Atomic Test #1 - Windows - Delete Volume Shadow Copies
+
+- Atomic Test #2 - Windows - Delete Windows Backup Catalog
+
+- Atomic Test #3 - Windows - Disable Windows Recovery Console Repair
+
+- Atomic Test #4 - Windows - Overwrite file with Sysinternals SDelete
+
+<br/>
+
+## Atomic Test #1 - Windows - Delete Volume Shadow Copies
+Deletes Windows Volume Shadow Copies. This technique is used by numerous ransomware families and APT malware such as Olympic Destroyer.
+
+**Supported Platforms:** Windows
+
+
+#### Run it with `command_prompt`!  Elevation Required (e.g. root or admin) 
+
+```
+vssadmin.exe delete shadows /all /quiet
+```
+
+<br/>
+<br/>
+
+## Atomic Test #2 - Windows - Delete Windows Backup Catalog
+Deletes Windows Backup Catalog. This technique is used by numerous ransomware families and APT malware such as Olympic Destroyer.
+
+**Supported Platforms:** Windows
+
+
+#### Run it with `command_prompt`!  Elevation Required (e.g. root or admin) 
+
+```
+wbadmin.exe delete catalog -quiet
+```
+
+<br/>
+<br/>
+
+## Atomic Test #3 - Windows - Disable Windows Recovery Console Repair
+Disables repair by the Windows Recovery Console on boot. 
+This technique is used by numerous ransomware families and APT malware such as Olympic Destroyer.
+
+**Supported Platforms:** Windows
+
+
+#### Run it with `command_prompt`!  Elevation Required (e.g. root or admin) 
+
+```
+bcdedit.exe /set {default} bootstatuspolicy ignoreallfailures
+bcdedit.exe /set {default} recoveryenabled no
+```
+
+<br/>
+<br/>
+
+## Atomic Test #4 - Windows - Overwrite file with Sysinternals SDelete
+Overwrites and deletes a file using Sysinternals SDelete.
+Requires the download of either Sysinternals Suite or the individual SDelete utility.
+
+**Supported Platforms:** Windows
+
+
+#### Inputs
+
+| Name | Description | Type | Default Value | 
+|:------:|:-------------:|:------:|:---------------:|
+| file_to_overwrite | Path of file to overwrite and remove | Path | C:\some\file.txt|
+
+#### Run it with `command_prompt`! 
+
+```
+sdelete.exe #{file_to_overwrite}
+```
+
+<br/>
+<br/>
