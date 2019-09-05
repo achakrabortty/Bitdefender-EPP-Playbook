@@ -131,7 +131,7 @@
   
  ### impact
  
- - T1485 Data Destruction
+ - [T1485 Data Destruction](_posts/2019-09-04-T1485 - Data Destruction.md)
    - Atomic Test #1: Windows - Delete Volume Shadow Copies [windows]
    - Atomic Test #2: Windows - Delete Windows Backup Catalog [windows]
    - Atomic Test #3: Windows - Disable Windows Recovery Console Repair [windows]
